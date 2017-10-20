@@ -1,0 +1,203 @@
+
+
+header { 
+	width 1250px;
+	border: 1px solid white;
+	border-bottom: 1px solid black;
+	padding: 10px;
+//	position: fixed;
+	z-index: 10;
+}
+
+.header{	
+	display: flex;
+	width: 500px;	
+	float: left;
+	margin-right: 400px;
+}
+
+.header_item {
+	font-family: Verdana;
+	font-size: 14 px
+	font-weight: bold;
+	color: MediumAquamarine;
+	display: inline-flex;
+	}
+
+
+#header_id {	
+	padding: 14px;
+}
+
+.navitem {
+	display: inline-block;
+	font-family: Verdana;
+	font-weight: bold;
+	margin: 0 auto;
+	font-size: 14px;
+	padding: 10px;
+
+}
+
+
+a:link {	
+	color: black;
+}
+
+body {
+}
+
+.container {
+	display: flex;
+	width: 1200px;
+    position: relative;
+ //   top: 30px;
+ //   padding-top: 30px;
+
+  //  align-items: flex-start;
+  //  justify-content: flex-start;
+	
+}
+
+.column {
+	display: flex;
+	flex-direction: column;	 
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 10px;
+}
+.column.large {
+	width:630px;
+//	border: 1px solid black;
+}
+
+.column.medium {
+	width: 300px;
+//	border: 1px solid black;
+}
+
+.column.small {
+	width: 240px;
+//	border: 1px solid black;
+}
+
+
+.article {
+//	border: 1px solid red;
+ 	display: flex;	
+ 	flex-direction: column;	 
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+ }	
+
+.image {	
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+}
+
+#main_story{
+	font-size: 40px;
+}
+
+.text {
+	font-family: Georgia;
+  	font-size: 17px;
+  	color: black;
+}
+
+#tuna {
+	background-image: url("../img/img-story-main.png");
+	min-height: 300px;
+	
+
+}
+#spins {
+	background-image: url("../img/img-story-1.png");
+	height: 300px;
+}
+#two {
+ 
+    background-image: url("../img/img-story-2.png");
+    min-height: 300px;
+    widows: 650px;
+}
+
+#three {
+	background-image: url("../img/img-story-3.png");
+	min-height: 300px;
+}
+
+
+.bite_hdg {
+	font-size: 16px;
+  	font-weight: bold;
+  	padding: 15x;
+  	text-align: center;
+}
+
+.news_bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+
+  border: 1px solid white;
+  border-bottom: 1px solid black;
+  padding: 10px;
+
+  width: 240px;
+}
+
+.footer {
+   	background-color: MediumAquamarine;
+  	margin: auto;
+  	font-family: Verdana;
+  	font-size: 12px;  	
+  //  width: 1250px;	
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding-top:  100px;
+	padding-bottom: 100px;
+	
+}
+
+  .footer_line {	
+	display: flex;
+	justify-content: center;
+	align-content: center;   
+	flex-direction: row;
+}
+
+.footer_item {
+	margin: 10px 20px 10px 10px;
+	display: inline-flex;
+}
+
+#mytimes {
+	font-family: Georgia;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+	
+}
+
+#white_line {
+	color: white;
+	background-color: white;
+	width: 3px;
+	height: 20px;
+	z-index: 10;
+}
+
+a:link {
+	color: black;
+}
+
+
+}
